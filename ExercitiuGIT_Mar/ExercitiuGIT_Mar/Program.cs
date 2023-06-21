@@ -20,6 +20,9 @@ namespace ExercitiuGIT_Mar
 
             Console.WriteLine("Marul " + apple1.color +" are dimensiunea de "+apple1.size+" cm");
 
+
+            Console.WriteLine(apple2.color);
+
             Console.ReadLine();
         }
     }
