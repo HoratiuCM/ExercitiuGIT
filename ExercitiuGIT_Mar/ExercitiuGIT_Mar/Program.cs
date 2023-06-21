@@ -15,8 +15,12 @@ namespace ExercitiuGIT_Mar
 
 
             Apple apple1 = new Apple(color, size);
+            Apple apple2 = new Apple("albastru", 75);
 
             Console.WriteLine("Marul " + apple1.color +" are dimensiunea de "+apple1.size+" cm");
+
+            Console.WriteLine("Marul " + apple2.color + " are dimensiunea de " + apple2.size + " cm");
+
 
             Console.ReadLine();
         }
